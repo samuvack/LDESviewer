@@ -1,0 +1,21 @@
+{
+    "name": "my-app",
+    "scripts": {
+        "dev": "nuxt",
+        "build": "nuxt build",
+        "generate": "nuxt generate",
+        "start": "nuxt start"
+    },
+    "dependencies": {
+        "@govflanders/vl-ui-button": "^15.0.8",
+        "@govflanders/vl-ui-core": "^16.0.8",
+        "@govflanders/vl-ui-vue-components": "^16.0.8",
+        "core-js": "^3.15.1",
+        "lodash": "^4.17.21",
+        "node-sass": "^4.14.1",
+        "nuxt": "^2.15.8",
+        "sass": "^1.44.0",
+        "sass-loader": "^10.2.0",
+        "vue-i18n": "^8.26.7"
+    }
+}
