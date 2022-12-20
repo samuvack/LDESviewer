@@ -11,11 +11,17 @@
         "@govflanders/vl-ui-core": "^16.0.8",
         "@govflanders/vl-ui-vue-components": "^16.0.8",
         "core-js": "^3.15.1",
+        "eventsource": "^2.0.2",
         "lodash": "^4.17.21",
+        "n3": "^1.16.3",
         "node-sass": "^4.14.1",
         "nuxt": "^2.15.8",
+        "rdflib": "^2.2.21",
         "sass": "^1.44.0",
         "sass-loader": "^10.2.0",
         "vue-i18n": "^8.26.7"
+    },
+    "devDependencies": {
+        "@babel/plugin-proposal-numeric-separator": "^7.18.6"
     }
 }

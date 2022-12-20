@@ -12,7 +12,7 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_3e491024 from 'nuxt_plugin_plugin_3e491024' // Source: .\\components\\plugin.js (mode: 'all')
+import nuxt_plugin_plugin_7de896a9 from 'nuxt_plugin_plugin_7de896a9' // Source: .\\components\\plugin.js (mode: 'all')
 import nuxt_plugin_vluivuecomponents_72c26996 from 'nuxt_plugin_vluivuecomponents_72c26996' // Source: ..\\plugins\\vl-ui-vue-components (mode: 'all')
 
 // Component: <ClientOnly>
@@ -63,7 +63,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"title":"OSLO Standaardenregister","htmlAttrs":{"lang":"nl"},"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":""},{"name":"format-detection","content":"telephone=no"}],"link":[{"rel":"icon","sizes":"192x192","href":"https:\u002F\u002Fdij151upo6vad.cloudfront.net\u002F2.latest\u002Ficons\u002Fapp-icon\u002Ficon-highres-precomposed.png"},{"rel":"apple-touch-icon","href":"https:\u002F\u002Fdij151upo6vad.cloudfront.net\u002F2.latest\u002Ficons\u002Fapp-icon\u002Ftouch-icon-iphone-precomposed.png"},{"rel":"apple-touch-icon","sizes":"76x76","href":"https:\u002F\u002Fdij151upo6vad.cloudfront.net\u002F2.latest\u002Ficons\u002Fapp-icon\u002Ftouch-icon-ipad-precomposed.png"},{"rel":"apple-touch-icon","sizes":"120x120","href":"https:\u002F\u002Fdij151upo6vad.cloudfront.net\u002F2.latest\u002Ficons\u002Fapp-icon\u002Ftouch-icon-iphone-retina-precomposed.png"},{"rel":"apple-touch-icon","sizes":"152x152","href":"https:\u002F\u002Fdij151upo6vad.cloudfront.net\u002F2.latest\u002Ficons\u002Fapp-icon\u002Ftouch-icon-ipad-retina-precomposed.png"}],"style":[],"script":[]},
+    head: {"title":"LDES analytics","htmlAttrs":{"lang":"nl"},"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":""},{"name":"format-detection","content":"telephone=no"}],"link":[{"rel":"icon","sizes":"192x192","href":"https:\u002F\u002Fdij151upo6vad.cloudfront.net\u002F2.latest\u002Ficons\u002Fapp-icon\u002Ficon-highres-precomposed.png"},{"rel":"apple-touch-icon","href":"https:\u002F\u002Fdij151upo6vad.cloudfront.net\u002F2.latest\u002Ficons\u002Fapp-icon\u002Ftouch-icon-iphone-precomposed.png"},{"rel":"apple-touch-icon","sizes":"76x76","href":"https:\u002F\u002Fdij151upo6vad.cloudfront.net\u002F2.latest\u002Ficons\u002Fapp-icon\u002Ftouch-icon-ipad-precomposed.png"},{"rel":"apple-touch-icon","sizes":"120x120","href":"https:\u002F\u002Fdij151upo6vad.cloudfront.net\u002F2.latest\u002Ficons\u002Fapp-icon\u002Ftouch-icon-iphone-retina-precomposed.png"},{"rel":"apple-touch-icon","sizes":"152x152","href":"https:\u002F\u002Fdij151upo6vad.cloudfront.net\u002F2.latest\u002Ficons\u002Fapp-icon\u002Ftouch-icon-ipad-retina-precomposed.png"}],"style":[],"script":[]},
 
     router,
     nuxt: {
@@ -177,8 +177,8 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_3e491024 === 'function') {
-    await nuxt_plugin_plugin_3e491024(app.context, inject)
+  if (typeof nuxt_plugin_plugin_7de896a9 === 'function') {
+    await nuxt_plugin_plugin_7de896a9(app.context, inject)
   }
 
   if (typeof nuxt_plugin_vluivuecomponents_72c26996 === 'function') {

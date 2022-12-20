@@ -1,6 +1,7 @@
+
 export default {
     head: {
-        title: 'OSLO Standaardenregister',
+        title: 'LDES analytics',
         htmlAttrs: {
             lang: 'nl',
         },
@@ -38,6 +39,8 @@ export default {
         ],
     },
 
+    
+
     // Target: https://go.nuxtjs.dev/config-target
     target: 'static',
 
@@ -59,7 +62,7 @@ export default {
     // Build Configuration: https://go.nuxtjs.dev/config-build
     build: {
         maxChunkSize: 1000000,
-        vendor: ['@govflanders/vl-ui-vue-components'],
-    }
+        vendor: ['@govflanders/vl-ui-vue-components']
 
+    }
 }
