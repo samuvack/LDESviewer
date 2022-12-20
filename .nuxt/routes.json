@@ -3,21 +3,18 @@
     "name": "test",
     "path": "/test",
     "component": "C:\\\\Users\\\\samue\\\\Documents\\\\nuxt3\\\\pages\\\\test\\\\index.vue",
-    "chunkName": "pages/test/index",
-    "_name": "_6f490ea0"
+    "chunkName": "pages/test/index"
   },
   {
     "name": "test2",
     "path": "/test2",
     "component": "C:\\\\Users\\\\samue\\\\Documents\\\\nuxt3\\\\pages\\\\test2\\\\index.vue",
-    "chunkName": "pages/test2/index",
-    "_name": "_b1e37afc"
+    "chunkName": "pages/test2/index"
   },
   {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\samue\\\\Documents\\\\nuxt3\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_4b71e3f2"
+    "chunkName": "pages/index"
   }
 ]

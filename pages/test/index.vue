@@ -12,12 +12,8 @@
 </template>
 
 
-<script src="https://unpkg.com/n3/browser/n3.min.js"></script>
 <script>
-require("@babel/core").transformSync("code", {
-  plugins: ["@babel/plugin-proposal-numeric-separator"],
-});
-const N3 = require('n3');
+import * as N3 from 'n3'
 
 function countOccurrences(str, value) {
   var regExp = new RegExp(value, "gi");
@@ -44,8 +40,5 @@ export default {
     }
   }
 }
-
-
-
 
 </script>
