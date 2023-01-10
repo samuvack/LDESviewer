@@ -1,13 +1,24 @@
+
 <template>
+
   <div>
+    <section class="vl-region">
+  <div class="vl-layout">
     <input type="text" v-model="ldesUri" placeholder="Enter LDES URI here" />
     <vl-button @click="fetchLdesMembers">Fetch LDES Members</vl-button>
     <ul>
       <li v-for="member in ldesMembers" :key="member" @click="displayMember(member)">{{ member }}</li>
     </ul>
+    </div>
+</section>
+<section class="vl-region">
+  <div class="vl-layout">
     <section v-if="displayedMember" id="displayed-member">
       {{displayedMember}}
     </section>
+    </div>
+</section>
+      
   </div>
 </template>
 

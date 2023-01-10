@@ -8,6 +8,7 @@
     },
     "dependencies": {
         "@govflanders/vl-ui-button": "^15.0.8",
+        "@govflanders/vl-ui-content-header": "^16.0.0",
         "@govflanders/vl-ui-core": "^16.0.8",
         "@govflanders/vl-ui-vue-components": "^16.0.8",
         "axios": "^1.2.2",
