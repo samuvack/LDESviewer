@@ -21,6 +21,20 @@
     "_name": "_9ecd8a00"
   },
   {
+    "name": "test4",
+    "path": "/test4",
+    "component": "C:\\\\Users\\\\samue\\\\Documents\\\\nuxt4\\\\pages\\\\test4\\\\index.vue",
+    "chunkName": "pages/test4/index",
+    "_name": "_8f6a3f42"
+  },
+  {
+    "name": "test5",
+    "path": "/test5",
+    "component": "C:\\\\Users\\\\samue\\\\Documents\\\\nuxt4\\\\pages\\\\test5\\\\index.vue",
+    "chunkName": "pages/test5/index",
+    "_name": "_8006f484"
+  },
+  {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\samue\\\\Documents\\\\nuxt4\\\\pages\\\\index.vue",
