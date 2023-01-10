@@ -14,6 +14,13 @@
     "_name": "_ae30d4be"
   },
   {
+    "name": "test3",
+    "path": "/test3",
+    "component": "C:\\\\Users\\\\samue\\\\Documents\\\\nuxt4\\\\pages\\\\test3\\\\index.vue",
+    "chunkName": "pages/test3/index",
+    "_name": "_9ecd8a00"
+  },
+  {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\samue\\\\Documents\\\\nuxt4\\\\pages\\\\index.vue",
