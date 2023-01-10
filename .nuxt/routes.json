@@ -2,19 +2,22 @@
   {
     "name": "test",
     "path": "/test",
-    "component": "C:\\\\Users\\\\samue\\\\Documents\\\\nuxt3\\\\pages\\\\test\\\\index.vue",
-    "chunkName": "pages/test/index"
+    "component": "C:\\\\Users\\\\samue\\\\Documents\\\\nuxt4\\\\pages\\\\test\\\\index.vue",
+    "chunkName": "pages/test/index",
+    "_name": "_190d48be"
   },
   {
     "name": "test2",
     "path": "/test2",
-    "component": "C:\\\\Users\\\\samue\\\\Documents\\\\nuxt3\\\\pages\\\\test2\\\\index.vue",
-    "chunkName": "pages/test2/index"
+    "component": "C:\\\\Users\\\\samue\\\\Documents\\\\nuxt4\\\\pages\\\\test2\\\\index.vue",
+    "chunkName": "pages/test2/index",
+    "_name": "_ae30d4be"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "C:\\\\Users\\\\samue\\\\Documents\\\\nuxt3\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "component": "C:\\\\Users\\\\samue\\\\Documents\\\\nuxt4\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_191c45b3"
   }
 ]
