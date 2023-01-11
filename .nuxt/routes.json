@@ -2,37 +2,43 @@
   {
     "name": "test",
     "path": "/test",
-    "component": "C:\\\\Users\\\\samue\\\\Documents\\\\nuxt4\\\\pages\\\\test\\\\index.vue",
-    "chunkName": "pages/test/index"
+    "component": "C:\\\\Users\\\\samue\\\\Documents\\\\nuxt5\\\\pages\\\\test\\\\index.vue",
+    "chunkName": "pages/test/index",
+    "_name": "_77a9a8a2"
   },
   {
     "name": "test2",
     "path": "/test2",
-    "component": "C:\\\\Users\\\\samue\\\\Documents\\\\nuxt4\\\\pages\\\\test2\\\\index.vue",
-    "chunkName": "pages/test2/index"
+    "component": "C:\\\\Users\\\\samue\\\\Documents\\\\nuxt5\\\\pages\\\\test2\\\\index.vue",
+    "chunkName": "pages/test2/index",
+    "_name": "_aa7e2e80"
   },
   {
     "name": "test3",
     "path": "/test3",
-    "component": "C:\\\\Users\\\\samue\\\\Documents\\\\nuxt4\\\\pages\\\\test3\\\\index.vue",
-    "chunkName": "pages/test3/index"
+    "component": "C:\\\\Users\\\\samue\\\\Documents\\\\nuxt5\\\\pages\\\\test3\\\\index.vue",
+    "chunkName": "pages/test3/index",
+    "_name": "_9b1ae3c2"
   },
   {
     "name": "test4",
     "path": "/test4",
-    "component": "C:\\\\Users\\\\samue\\\\Documents\\\\nuxt4\\\\pages\\\\test4\\\\index.vue",
-    "chunkName": "pages/test4/index"
+    "component": "C:\\\\Users\\\\samue\\\\Documents\\\\nuxt5\\\\pages\\\\test4\\\\index.vue",
+    "chunkName": "pages/test4/index",
+    "_name": "_8bb79904"
   },
   {
     "name": "test5",
     "path": "/test5",
-    "component": "C:\\\\Users\\\\samue\\\\Documents\\\\nuxt4\\\\pages\\\\test5\\\\index.vue",
-    "chunkName": "pages/test5/index"
+    "component": "C:\\\\Users\\\\samue\\\\Documents\\\\nuxt5\\\\pages\\\\test5\\\\index.vue",
+    "chunkName": "pages/test5/index",
+    "_name": "_7c544e46"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "C:\\\\Users\\\\samue\\\\Documents\\\\nuxt4\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "component": "C:\\\\Users\\\\samue\\\\Documents\\\\nuxt5\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_3272b118"
   }
 ]

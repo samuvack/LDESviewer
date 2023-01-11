@@ -1,39 +1,44 @@
 <template>
   <div>
-    <input type="text" v-model="ldesUri" placeholder="Enter LDES URI here" />
-    <button @click="fetchLdesMembers">Fetch LDES Members</button>
-    <ul>
-      <li v-for="member in ldesMembers" :key="member">{{ member }}</li>
-    </ul>
+    <div>
+      <input v-model="ldesUri" placeholder="Enter LDES URI" />
+      <button @click="fetchMembers">Fetch Members</button>
+    </div>
+    <table v-if="members.length > 0">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr v-for="member in members" :key="member.id">
+          <td>{{ member.name }}</td>
+          <td>{{ member.email }}</td>
+        </tr>
+      </tbody>
+    </table>
   </div>
 </template>
 
 <script>
-import { Parser } from 'n3'
-
+import ldfetch from 'ldfetch'
 export default {
   data() {
     return {
-      ldesUri: 'https://iow.smartdataspace.beta-vlaanderen.be/water-quality-observations-timebased?generatedAtTime=2022-11-08T17:28:27.680Z',
-      ldesMembers: []
+      ldesUri: '',
+      members: []
     }
   },
   methods: {
-    async fetchLdesMembers() {
-      // Fetch the LDES
-      const response = await fetch(this.ldesUri)
-      const text = await response.text()
-      
-      // Parse the triples
-      const parser = new Parser()
-      parser.parse(text, (error, triple, prefixes) => {
-        if (triple) {
-          // Check if the triple is a member of the LDES
-          if (triple.predicate.value === 'http://www.w3.org/ns/ldp#member') {
-            this.ldesMembers.push(triple.object.value)
-          }
+    async fetchMembers() {
+      const { quads } = await ldfetch.get(this.ldesUri)
+      this.members = quads.map(quad => {
+        return {
+          name: quad.subject.value,
+          email: quad.object.value
         }
-      })
+      }).slice(0, 100)
     }
   }
 }

@@ -62,7 +62,13 @@ export default {
     // Build Configuration: https://go.nuxtjs.dev/config-build
     build: {
         maxChunkSize: 1000000,
-        vendor: ['@govflanders/vl-ui-vue-components']
-
+        vendor: ['@govflanders/vl-ui-vue-components'],
+        extend(config, { isClient }) {
+            config.module.rules.push({
+                test: /\.js$/,
+                exclude: /node_modules/,
+                loader: 'babel-loader'
+            })
+        }
     }
 }
